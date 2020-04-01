@@ -1,6 +1,8 @@
 
-## Set up:
+This is a template for launching serverless REST API's with fastify.
+You can clone, modify main.js with your own routes and deploy!
 
+This trivial template is deployed here: [https://qgam78umn2.execute-api.us-east-1.amazonaws.com/dev](https://qgam78umn2.execute-api.us-east-1.amazonaws.com/dev)
 
 #### Install
 ```bash
