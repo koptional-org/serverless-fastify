@@ -1,0 +1,19 @@
+{
+  "name": "fastify-serverless",
+  "version": "1.0.0",
+  "description": "A template for creating fastify apps that run on serverless!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch '**/*.js' --ignore '**/*.spec.js' --exec 'node' app.js"
+  },
+  "author": "Jack Considine <jackconsidine3@gmail.com> (jackconsidine.wordpress.com)",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^2.13.0",
+    "serverless-http": "^2.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
